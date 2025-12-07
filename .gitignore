@@ -1,0 +1,20 @@
+# ignore dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# ignore local environment
+backend/.env
+frontend/.env
+
+# ignore dataset
+backend/data/
+*.csv
+*.xlsx
+
+# build output
+frontend/dist/
+backend/logs/
+
+# OS files
+.DS_Store
+Thumbs.db
